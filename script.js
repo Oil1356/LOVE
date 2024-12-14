@@ -104,7 +104,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 6:
-      document.getElementById("noBtn").innerHTML = "NO";
+      document.getElementById("noBtn").innerHTML = "ไม่ไงงงงงง";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "100px";
