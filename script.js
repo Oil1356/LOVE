@@ -17,7 +17,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   document.getElementById("messageContainer").style.display = "block";
   document.getElementById("messageContainer").innerHTML =
-    "แฟนเค้าน่ารักกี่สุดเลยยยรักเค้าด้วยย ออย❤พลอย";
+    "แฟนเค้าน่ารักที่สุดเลยยยรักเค้าด้วยย ออย❤พลอย";
 
   setTimeout(function () {
     document.getElementById("happyGifContainer").style.display = "none";
