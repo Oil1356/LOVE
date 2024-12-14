@@ -64,7 +64,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       break;
 
     case 2:
-      document.getElementById("noBtn").innerHTML = "ไม่เป็น!";
+      document.getElementById("noBtn").innerHTML = "ไม่รัก!";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
       document.getElementById("sadGifContainer").style.display = "none";
       document.getElementById("sadGifContainer2").style.display = "none";
@@ -77,7 +77,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       break;
 
     case 3:
-      document.getElementById("noBtn").innerHTML = "ไม่่่่่่่่่่่";
+      document.getElementById("noBtn").innerHTML = "ไม่รักกกก";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "70px";
@@ -86,7 +86,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 4:
-      document.getElementById("noBtn").innerHTML = "ไม่นะ";
+      document.getElementById("noBtn").innerHTML = "ไม่ไง";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "80px";
@@ -95,7 +95,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 5:
-      document.getElementById("noBtn").innerHTML = "ไม่ยอมเป็นหรอก";
+      document.getElementById("noBtn").innerHTML = "ไม่ยอมรักหรอก";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "90px";
@@ -113,7 +113,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
       noButtonState++;
       break;
     case 7:
-      document.getElementById("noBtn").innerHTML = "ฉันขอยอมแพ้!";
+      document.getElementById("noBtn").innerHTML = "เค้าขอยอมแพ้!";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
       document.getElementById("siBtn").style.fontSize = "120px";
@@ -121,7 +121,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
 
       noButtonState++;
       document.getElementById("noBtn").onclick = function() {  
-        if (confirm("เธอจริงๆ ไม่รักฉันเหรอ??")) {  
+        if (confirm("เธอจริงๆ ไม่รักเค้าเหรอคับ??")) {  
             window.location.href = "./troll.mp4";  
         }  
     };  
